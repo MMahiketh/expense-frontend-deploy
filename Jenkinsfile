@@ -7,7 +7,7 @@ pipeline {
     }
     environment {
         project = 'expense'
-        component = 'backend'
+        component = 'frontend'
         awsECRurl = 'dkr.ecr.us-east-1.amazonaws.com'
         awsRegion = 'us-east-1'
         awsCreds = 'aws-creds'
